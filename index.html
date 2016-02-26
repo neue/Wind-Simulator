@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script type="text/javascript">
+    var mySim = new p5(windSimulator,'simHolder');
+  </script>
+</head>
+
+<body>
+  <div id="simHolder"></div>
+  
+  <button onclick="mySim.speed = 0.01;">Change Speed(stop)</button>
+  <button onclick="mySim.speed = 15.0;">Change Speed(fast)</button>
+  <button onclick="mySim.angle = 3.0;">Change Angle</button>
+  
+</body>
+</html>
